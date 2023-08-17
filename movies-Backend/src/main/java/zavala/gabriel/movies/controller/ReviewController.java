@@ -11,6 +11,7 @@ import zavala.gabriel.movies.service.ReviewService;
 import java.util.Map;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/v1/reviews")
 public class ReviewController {
     @Autowired
